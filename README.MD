@@ -1,5 +1,8 @@
 # CPP Notes
 
+Roughly following https://cplusplus.com/doc/tutorial/ and then when things get spicy
+https://github.com/cmu-db/15445-bootcamp
+
 Compiling to executable:
 
 ```shell
