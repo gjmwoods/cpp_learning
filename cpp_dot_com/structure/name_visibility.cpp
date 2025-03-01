@@ -40,6 +40,6 @@ int main() {
         cout << "You can do this too";
     }
 
-    //static storage vs automatic. Static (ie global/namespace) are allocated for program duration and initialized with 0
-    //automatic (e.g. within a block) only available within a block and NOT initialized.
+    // static storage vs automatic. Static (ie global/namespace) are allocated for program duration and initialized with 0
+    // automatic (e.g. within a block) only available within a block and NOT initialized.
 }
