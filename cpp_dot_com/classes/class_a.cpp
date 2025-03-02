@@ -47,4 +47,6 @@ int main() {
 //    Circle qux = {40.0}; // POD-like
 
     //Usual pointer shenanegans apply
+
+    //Stuct and unions are also classes with default access being public
 }
