@@ -6,10 +6,13 @@ class Rectangle {
     int width, height;              //Private by default
 public:
     Rectangle ();                   //Default Constructor
+    Rectangle (int);
     Rectangle (int,int);
     void set_values (int,int);
     int area() {return width*height;} //Define inline
 };
+
+Rectangle::Rectangle (int x) : width(x), height(10) { } //direct initialization
 
 Rectangle::Rectangle() {
     width = 10;
